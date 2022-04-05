@@ -1,4 +1,4 @@
-import { Box, Text, Layer, IconButton, Image, TapArea } from "gestalt";
+import { Box, Text, Layer, IconButton, Image, TapArea, Icon } from "gestalt";
 import { useState, useEffect } from 'react';
 import "./ImageGallery.css";
 import Masonry from "react-masonry-component";
@@ -28,12 +28,24 @@ const ImageGallery = () => {
     return (
         <>
             <Box display="flex" marginTop={4} justifyContent="center" alignItems="center" >
-                <Box width={"92%"} display="flex" justifyContent="center">
-                    <Text size="500">
-                        <span style={{ fontFamily: 'Montserrat, sans-serif' }}>
-                            {porfolioItem.name}
-                        </span>
-                    </Text>
+                <Box width={"92%"} display="flex" direction="row" wrap justifyContent="center">
+                    <Box width={"100%"} display="flex" justifyContent="center">
+                        <Text size="500" weight="bold">
+                            <span style={{ fontFamily: 'Montserrat, sans-serif' }}>
+                                {porfolioItem.name}
+                            </span>
+                        </Text>
+                    </Box>
+                    {porfolioItem.address !== '' &&
+                        <>
+                            <Icon icon="location" accessibilityLabel="" inline="true" color="darkGray" />
+                            <Text size="300">
+                                <span style={{ fontFamily: 'Montserrat, sans-serif' }}>
+                                    {porfolioItem.address}
+                                </span>
+                            </Text>
+                        </>
+                    }
                 </Box>
             </Box>
             <Box width="100%" marginTop={3} display="flex" alignContent="center" justifyContent="center">
@@ -65,7 +77,6 @@ const ImageGallery = () => {
                                             src={displayImage.originURL}
                                         />
                                     </Box>
-
                                     <Box marginStart={2} right top position="absolute">
                                         <IconButton
                                             size="xl"
