@@ -26,8 +26,8 @@ const Porfolio = () => {
                 <Box display="flex" direction="row" wrap>
                     {porfolio.map((imageData, i) => {
                         return (
-                            <Column span={12} mdSpan={4}>
-                                <Box justifyContent="center" alignItems="center" margin={3} key={imageData.id}>
+                            <Column span={12} mdSpan={4} key={imageData.id}>
+                                <Box justifyContent="center" alignItems="center" margin={3}>
                                     <TapArea mouseCursor="pointer" onTap={() => showDetail(imageData)} rounding={4}>
                                         <Card image={<img
                                             alt="Test"
