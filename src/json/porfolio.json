@@ -2,6 +2,8 @@
     {
         "id": "ffb24d8f-3fbb-46e7-a6c6-c66c8b01ae95",
         "name": "Allure Coffee",
+        "address": "51 Đường Trần Nhật Duật, Tân Định, Quận 1",
+        "city": "Tp.HCM",
         "url": "https://drive.google.com/uc?id=1OOK7P3bSJcRgitxbfL8y86AaThSN4qII",
         "images": [
             {
@@ -129,6 +131,8 @@
     {
         "id": "1bd84db4-b540-41e7-946b-2f31ba1a109c",
         "name": "Cà Rề Coffee",
+        "address": "Lầu 6, 35 Nguyễn Văn Tráng, Phường Phạm Ngũ Lão, Quận 1",
+        "city": "Tp.HCM",
         "url": "https://drive.google.com/uc?id=16p-tvXiCfRkvyv3jStqi02WqXwW-Ds34",
         "images": [
             {
@@ -181,6 +185,8 @@
     {
         "id": "398444cd-77fe-46f9-913d-dfb3b2f4af1e",
         "name": "City Night",
+        "address": "",
+        "city": "",
         "url": "https://drive.google.com/uc?id=14UZxpepddfHk9zx58rJyA_mOqTAQDR60",
         "images": [
             {
@@ -258,6 +264,8 @@
     {
         "id": "30ab692b-c02a-4923-afa0-d9bd94fd468f",
         "name": "Cooku’s nest café",
+        "address": "17bis Tú Xương, Võ Thị Sáu, Quận 3",
+        "city": "Tp.HCM",
         "url": "https://drive.google.com/uc?id=1Z70PuHuTGWJ8olEocQapIQCfn7Cz5Exw",
         "images": [
             {
@@ -315,6 +323,8 @@
     {
         "id": "a6dd8ab4-76e3-4d21-852b-a8d3ac735f6a",
         "name": "Hidden Elephant Coffee",
+        "address": "35 Phan Chu Trinh, Phường Bến Thành, Quận 1",
+        "city": "Tp.HCM",
         "url": "https://drive.google.com/uc?id=1Jx2yJicaB0SlwUwy8Ir_241OdOg24P_T",
         "images": [
             {
@@ -377,6 +387,8 @@
     {
         "id": "3b781331-7d1b-4f50-bada-7d7de26c46fe",
         "name": "Little Cam Saigon Coffee",
+        "address": "64Bis Nguyễn Thị Minh Khai, Đa Kao, Quận 1",
+        "city": "Tp.HCM",
         "url": "https://drive.google.com/uc?id=1_H_5k4VK5O95YtrMSLv4OMWP5STeGfKP",
         "images": [
             {
@@ -464,6 +476,8 @@
     {
         "id": "e3fbae06-99c7-4547-9e82-6a6b848257b3",
         "name": "Mai Cà Phê",
+        "address": "82/38 Thành Thái, Phường 12, Quận 10",
+        "city": "Tp.HCM",
         "url": "https://drive.google.com/uc?id=1vjpeJanAFksKYH_Y-VVbVuLFo3ZTDq0K",
         "images": [
             {
@@ -551,6 +565,8 @@
     {
         "id": "46184f69-1a0b-4a24-9100-448dc0a49101",
         "name": "Maison de Booney Coffee",
+        "address": "10 Lê Quý Đôn, Phường 14, Phú Nhuận",
+        "city": "Tp.HCM",
         "url": "https://drive.google.com/uc?id=1XOonTJmzyOdA5wZtZ9rg4RUi_U1RbFo9",
         "images": [
             {
@@ -603,6 +619,8 @@
     {
         "id": "dd4e04eb-4e07-4d66-9ac3-b9486b14c9d8",
         "name": "Mơ Đi Hội Coffee",
+        "address": "Chung cư, Lầu 4, 145 Đ. Nguyễn Trãi, Phường Phạm Ngũ Lão, Quận 1",
+        "city": "Tp.HCM",
         "url": "https://drive.google.com/uc?id=1R-AUsqiBSkDKI1z4fDAW8iWQ8cVkqE6P",
         "images": [
             {
@@ -650,6 +668,8 @@
     {
         "id": "6e6fa553-2b10-41a2-93e1-433d1345d93c",
         "name": "Portrait",
+        "address": "",
+        "city": "",
         "url": "https://drive.google.com/uc?id=1xT8WIOBa-zZ7RaENT6H4yuAykO1zWDFX",
         "images": [
             {
@@ -767,6 +787,8 @@
     {
         "id": "310c422d-7dc5-4a64-be1a-8b73e8ad3202",
         "name": "Room 44 Coffee",
+        "address": "Lầu 4, Chung cư 35 Nguyễn Văn Tráng, phường Bến Thành, Quận 1",
+        "city": "Tp.HCM",
         "url": "https://drive.google.com/uc?id=1wa_Lcxk7KrRJnLba6FpdXYnt7cPBrP-Z",
         "images": [
             {
@@ -824,6 +846,8 @@
     {
         "id": "abc8537d-0b76-450a-af36-87a698baa755",
         "name": "Street Life",
+        "address": "",
+        "city": "",
         "url": "https://drive.google.com/uc?id=1MiyHdZJFgPKKqWaQKQh6dlVk88b2t66j",
         "images": [
             {
@@ -975,7 +999,9 @@
     },
     {
         "id": "6981feaf-6aba-4d42-be58-6fbfedd149dd",
-        "name": "Tay Mơ Coffee",
+        "name": "Tay Mơ Space",
+        "address": "Lầu 2, Chung cư 59 Phạm Ngọc Thạch, Quận 3",
+        "city": "Tp.HCM",
         "url": "https://drive.google.com/uc?id=1tQhhQjcruFaFOkSQZHKObJabYM1j6FEU",
         "images": [
             {
@@ -1043,6 +1069,8 @@
     {
         "id": "241027bf-c8ca-46a2-8a7e-0ac5e141dd9e",
         "name": "Urs Coffee",
+        "address": "206 Sư Vạn Hạnh, Phường 2, Quận 10",
+        "city": "Tp.HCM",
         "url": "https://drive.google.com/uc?id=172i1ca7b77iI9tpLvd-Nf7XEbrLMqM8b",
         "images": [
             {
