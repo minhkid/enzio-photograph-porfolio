@@ -1,4 +1,4 @@
-import { PageHeader, Text, Box, Tabs } from 'gestalt'
+import { PageHeader, Text, Box, Tabs, TapArea } from 'gestalt'
 import { useState, useEffect } from 'react'
 import { useNavigate, useLocation } from 'react-router-dom';
 import 'gestalt/dist/gestalt.css';
@@ -27,9 +27,11 @@ const NavBar = () => {
         <Box display='flex' direction='column' flex='grow'>
             <PageHeader
                 title={
-                    <span style={{ fontFamily: 'Montserrat, sans-serif' }}>
-                        Enzio Nguyen
-                    </span>
+                    <TapArea mouseCursor="pointer" onTap={() => navigate("/")}>
+                        <span style={{ fontFamily: 'Montserrat, sans-serif' }}>
+                            Enzio Nguyen
+                        </span>
+                    </TapArea>
                 }
                 subtext={
                     <Text size="200">
