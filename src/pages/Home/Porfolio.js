@@ -1,4 +1,4 @@
-import { Box, Text, Card, Flex, Link, Layer, IconButton, TapArea } from "gestalt";
+import { Box, Text, Card, Flex, Link, Layer, IconButton, TapArea, Column } from "gestalt";
 import { useState, useEffect } from 'react'
 import { useNavigate } from 'react-router-dom';
 import porfolio from '../../json/porfolio.json';
@@ -23,31 +23,34 @@ const Porfolio = () => {
                         P O R F O L I O
                     </span>
                 </Text>
-                <Box width={"100%"} display="flex" wrap="false">
+                <Box display="flex" direction="row" wrap>
                     {porfolio.map((imageData, i) => {
                         return (
-                            <Box width="31%" justifyContent="center" alignItems="center" margin={3} key={imageData.id}>
-                                <TapArea mouseCursor="pointer" onTap={() => showDetail(imageData)} rounding={4}>
-                                    <Card image={<img
-                                        alt="Test"
-                                        style={{ width: '100%', objectFit: "cover", height: '257px' }}
-                                        loading="lazy"
-                                        src={imageData.url}
-                                    />}>
-                                        <Flex direction="column" justifyContent="center">
-                                            <Text align="center" weight="bold">
-                                                <Link>
-                                                    <Box paddingX={3} paddingY={2}>
-                                                        <span style={{ fontFamily: 'Montserrat, sans-serif' }}>
-                                                            {imageData.name.toUpperCase()}
-                                                        </span>
-                                                    </Box>
-                                                </Link>
-                                            </Text>
-                                        </Flex>
-                                    </Card>
-                                </TapArea>
-                            </Box>
+                            <Column span={12} mdSpan={4}>
+                                <Box justifyContent="center" alignItems="center" margin={3} key={imageData.id}>
+                                    <TapArea mouseCursor="pointer" onTap={() => showDetail(imageData)} rounding={4}>
+                                        <Card image={<img
+                                            alt="Test"
+                                            style={{ width: '100%', objectFit: "cover", height: '257px' }}
+                                            loading="lazy"
+                                            src={imageData.url}
+                                        />}>
+                                            <Flex direction="column" justifyContent="center">
+                                                <Text align="center" weight="bold">
+                                                    <Link>
+                                                        <Box paddingX={3} paddingY={2}>
+                                                            <span style={{ fontFamily: 'Montserrat, sans-serif' }}>
+                                                                {imageData.name.toUpperCase()}
+                                                            </span>
+                                                        </Box>
+                                                    </Link>
+                                                </Text>
+                                            </Flex>
+                                        </Card>
+                                    </TapArea>
+                                </Box>
+                            </Column>
+
                         )
                     })}
                     {showLayer && (
