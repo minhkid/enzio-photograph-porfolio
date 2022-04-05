@@ -55,8 +55,8 @@ const ImageGallery = () => {
                     {showLayer && (
                         <Layer>
                             <Box color="darkWash" position="fixed" top left right bottom display="flex" alignItems="center" justifyContent="center">
-                                <Box maxWidth="70%" height={"100%"} rounding={2} display="flex" alignItems="top">
-                                    <Box width={1000}>
+                                <Box maxWidth="80%" height={"100%"} rounding={2} display="flex" alignItems="top">
+                                    <Box width={2000}>
                                         <Image
                                             alt="example.com"
                                             naturalHeight={1}
