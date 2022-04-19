@@ -1,4 +1,4 @@
-import { Box, Image, Text, Heading, IconButton, Column, Divider } from "gestalt";
+import { Box, Image, Text, IconButton, Column, Divider } from "gestalt";
 
 const AboutPage = () => {
 
