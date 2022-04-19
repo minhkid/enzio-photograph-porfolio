@@ -6,9 +6,12 @@ import porfolio from '../../json/porfolio.json';
 const Porfolio = () => {
     const navigate = useNavigate();
     const [showLayer, setShowLayer] = useState(false);
+    const [porfolioList, setPorfolioList] = useState([]);
 
     useEffect(() => {
         // Update the document title using the browser API
+        const random = porfolio.sort(() => Math.random() - 0.5)
+        setPorfolioList([...random]);
     }, []);
 
     function showDetail(imageData) {
@@ -24,7 +27,7 @@ const Porfolio = () => {
                     </span>
                 </Text>
                 <Box display="flex" direction="row" wrap>
-                    {porfolio.map((imageData, i) => {
+                    {porfolioList.map((imageData, i) => {
                         return (
                             <Column span={12} mdSpan={4} key={imageData.id}>
                                 <Box justifyContent="center" alignItems="center" margin={3}>
