@@ -10,7 +10,7 @@ const AboutPage = () => {
                         ABOUT ME
                         </span>
                 </Text>
-                <Box display="flex" direction="row">
+                <Box display="flex" direction="row" wrap>
                     <Column span={12} mdSpan={6}>
                         <Box padding={4} height={800}>
                             <Image
